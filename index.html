@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="animaciones.css"/>
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <title>Estudio: Piedra Papel o Tijeras</title>
+  </head>
+  <body>
+    <div class="general">
+      <h1>Piedra Papel o tijera</h1>
+      <div class="caja caja-borde">
+        <div class="info">
+          <div class="cpu">
+            <h2>La Cpu</h2>
+            <img id = cpu-image src="paperneon.png" />
+          </div>
+          <h2>Escoge</h2>
+          <h2 id="text-result"></h2>
+          <div class="cartas">
+            <button id="paper" type="button">
+              <img src="paperneon.png"/>
+            </button>
+            <button id="rock" type="button">
+              <img src="rockneon.png"/>
+            </button>
+            <button id="scissors" type="button">
+              <img src="scissorsneon.png"/>
+            </button>
+          </div>
+        <div class="score">
+          <h2> User </h2>
+          <h2 id = scoreuser> 0 </h2>
+          <h2> - </h2>
+          <h2> Cpu </h2>
+          <h2 id = scorecpu> 0 </h2>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Js Particles-->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+    <!--Js-->
+    <script src="index.js"></script>
+
+  </body>
+</html>

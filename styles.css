@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+body{
+    background-color: #141726;
+}
+
+.general{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    color: whitesmoke;
+    max-height: 800px;
+}
+
+.general>h1{
+    margin-top:20px;
+    margin-bottom: 8%;
+    color : #fff ;
+    text-shadow : 0 0 5px #f6e453 , 0 0 25px #f6e453 , 0 0 50px #f6e453 , 0 0 100px #f6e453 ;
+}
+
+.caja{
+    position: relative;
+    background-image: url("fondoneon.png"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 2em;
+    box-shadow: 2px 2px 5px 0px black;
+    border-radius: 10px;
+}
+
+.caja-borde::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 50%;
+    -webkit-box-shadow: 0 0 17px 3px #bd328c,0 0 4px 2px #bd328c;
+            box-shadow: 0 0 17px 3px #bd328c,0 0 4px 2px #bd328c;
+    z-index: -1;
+    -webkit-animation-name: yellow-shadow;
+            animation-name: yellow-shadow;
+    -webkit-animation-timing-function: ease;
+            animation-timing-function: ease;
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+  
+  .caja-borde::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    height: 50%;
+    -webkit-box-shadow: 0 0 17px 3px #4ab1fd,0 0 4px 2px #4ab1fd;
+            box-shadow: 0 0 17px 3px #4ab1fd,0 0 4px 2px #4ab1fd;
+    z-index: -1;
+    -webkit-animation-name: cyan-shadow;
+            animation-name: cyan-shadow;
+    -webkit-animation-timing-function: ease;
+            animation-timing-function: ease;
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+
+.cartas{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+.info{
+    background-color: #141726;
+    border-radius: 5px;
+    box-shadow: 0 0 17px 3px #948831;
+}
+
+.info>h2{
+    padding-bottom: 1em;
+    padding-top: 1em;
+    text-shadow: 0 0 5px #f6e453 , 0 0 25px #f6e453 , 0 0 50px #f6e453 , 0 0 100px #f6e453 ;
+}
+
+.cpu>h2{
+    padding-bottom: 1em;
+    padding-top: 1em;
+    text-shadow: 0 0 5px #f6e453 , 0 0 25px #f6e453 , 0 0 50px #f6e453 , 0 0 100px #f6e453 ;
+
+}
+
+
+.cartas>button>img{
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.cartas > button{
+    background-color: transparent;
+    border: none;
+}
+
+.cartas > button:hover{
+    animation-name: big-small-inf;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.cpu>img{
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.score{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    
+}
+.score>h2{
+    padding-bottom: 1em;
+    padding-top: 1em;
+    text-shadow: 0 0 5px #f6e453 , 0 0 25px #f6e453 , 0 0 50px #f6e453 , 0 0 100px #f6e453 ;
+    padding-right: 1em;
+    padding-left: 1em;
+}

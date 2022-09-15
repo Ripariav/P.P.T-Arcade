@@ -1,0 +1,102 @@
+
+  @-webkit-keyframes yellow-shadow {
+    0% {
+      top: 0;
+      left: 0;
+    }
+    25% {
+      top: 50%;
+      left: 0;
+    }
+    50% {
+      top: 50%;
+      left: 50%;
+    }
+    75% {
+      top: 0;
+      left: 50%;
+    }
+    100% {
+      top: 0;
+      left: 0;
+    }
+  }
+  
+  @keyframes yellow-shadow {
+    0% {
+      top: 0;
+      left: 0;
+    }
+    25% {
+      top: 50%;
+      left: 0;
+    }
+    50% {
+      top: 50%;
+      left: 50%;
+    }
+    75% {
+      top: 0;
+      left: 50%;
+    }
+    100% {
+      top: 0;
+      left: 0;
+    }
+  }
+  
+  @-webkit-keyframes cyan-shadow {
+    0% {
+      right: 0;
+      bottom: 0;
+    }
+    25% {
+      right: 0;
+      bottom: 50%;
+    }
+    50% {
+      right: 50%;
+      bottom: 50%;
+    }
+    75% {
+      right: 50%;
+      bottom: 0;
+    }
+    100% {
+      right: 0;
+      bottom: 0;
+    }
+  }
+  
+  @keyframes cyan-shadow {
+    0% {
+      right: 0;
+      bottom: 0;
+    }
+    25% {
+      right: 0;
+      bottom: 50%;
+    }
+    50% {
+      right: 50%;
+      bottom: 50%;
+    }
+    75% {
+      right: 50%;
+      bottom: 0;
+    }
+    100% {
+      right: 0;
+      bottom: 0;
+    }
+  }
+  
+@keyframes big-small-inf {
+  0%{
+    transform: scale(1);
+  }
+  100%{
+    transform: scale(1.30);
+  }
+  
+}
